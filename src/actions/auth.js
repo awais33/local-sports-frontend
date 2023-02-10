@@ -11,5 +11,4 @@ export const register = createAsyncThunk("auth/register", async (credentials) =>
     return response.data;
 });
 
-
 export const logout = () => ({ type: "auth/logout" });
