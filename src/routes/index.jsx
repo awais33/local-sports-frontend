@@ -1,7 +1,9 @@
 import authRoutes from './auth';
-console.log(authRoutes)
+import homeRoutes from './home';
+
 const routes = (isLoggedIn) => [
-    ...authRoutes
+    ...authRoutes,
+    ...homeRoutes
 ]
 
 export default routes;
